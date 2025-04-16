@@ -29,7 +29,7 @@ export function BankSlip() {
     resolver: zodResolver(schema),
   })
 
-  function onSubmit(data: FormData) {
+  function onSubmit() {
     toast.success('Boleto gerado com sucesso')
   }
   return (

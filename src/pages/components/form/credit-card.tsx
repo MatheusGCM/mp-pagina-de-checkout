@@ -52,7 +52,7 @@ export function CreditCard() {
     resolver: zodResolver(schema),
   })
 
-  function onSubmit(data: FormData) {
+  function onSubmit() {
     toast.success('Pagamento realizado com sucesso')
   }
   return (
